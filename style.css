@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(235, 156, 146); /*цвет фона*/
+    height: 500px;  /*высота*/
+    color: rgb(171, 199, 224); /*цвет текста*/
+    font-size: 30px;  /*размер текста*/
+    background-image: url("fon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+main{
+    background-color: rgb(183, 183, 241); /*цвет фона*/
+    height: 100%;   /*высота*/
+    color: rgb(252, 252, 252); /*цвет текста*/
+    font-size: 30px;  /*размер текста*/
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, #ee6f6f, #fffd76);
+}
+footer{
+    background-color: rgb(117, 25, 25); /*цвет фона*/
+    height: 100%;  /*высота*/
+    color: rgb(253, 200, 233);  /*цвет текста*/
+    font-size: 30px;  /*размер текста*/
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(192, 114, 114);
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+    float: left;
+    padding: 10px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(178, 247, 224);
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+.f_left{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.f.left img{
+    padding-top: 20px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
